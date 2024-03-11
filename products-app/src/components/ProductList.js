@@ -1,3 +1,12 @@
+/* 
+2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+3 Name : lab8_exe_C
+4 Assignment : Lab 8 , Exercise C
+5 Author ( s ) : Wade Banman, Abdul Shakoor Raed
+6 Submission : March 11, 2024
+7 Description : React .
+8 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+*/
 import React, { useEffect, useState } from "react";
 import { fetchProducts } from "../services/apiServices";
 import { useProductsContext } from "../context/ProductsContext";

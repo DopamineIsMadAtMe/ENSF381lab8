@@ -1,3 +1,12 @@
+/* 
+2 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+3 Name : lab8_exe_C
+4 Assignment : Lab 8 , Exercise C
+5 Author ( s ) : Wade Banman, Abdul Shakoor Raed
+6 Submission : March 11, 2024
+7 Description : React .
+8 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+*/
 import React, { useState, useEffect } from "react";
 import DeleteButton from "./DeleteButton";
 import { getProductDetails } from "../services/apiServices";
