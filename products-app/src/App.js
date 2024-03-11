@@ -1,10 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { ProductsProvider } from './context/ProductsContext'; // Adjust the import path as necessary
-import ProductList from './components/ProductList';
-import NotFoundPage from './components/NotFoundPage';
-import HomePage from './components/HomePage';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { ProductsProvider } from "./context/ProductsContext"; // Adjust the import path as necessary
+import ProductList from "./components/ProductList";
+import NotFoundPage from "./components/NotFoundPage";
+import HomePage from "./components/HomePage";
+import "./App.css";
 
 function App() {
   return (
@@ -31,7 +31,8 @@ function App() {
             <Routes>
               <Route path="/products" element={<ProductList />} />
               <Route path="/" element={<HomePage />} />
-              <Route path="*" element={<NotFoundPage />} /> {/* Catch all other route */}
+              <Route path="*" element={<NotFoundPage />} />{" "}
+              {/* Catch all other route */}
             </Routes>
           </div>
         </Router>
