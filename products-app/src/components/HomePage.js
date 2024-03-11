@@ -1,6 +1,5 @@
 import React from "react";
 
-// using JSON for styling
 const styles = {
   container: {
     padding: "10px 1vw",
